@@ -21,3 +21,10 @@ Ensure you have the following dependencies installed:
 - pandas
 - numpy
 - matplotlib (for visualization)
+# Graph- predected vs actual
+<img width="748" alt="Screenshot 2024-03-27 110950" src="https://github.com/samyakteotia/Stock-market-price-prediction/assets/124557415/47986fb3-6a2a-4244-bcac-6a0293e86483">
+
+# Results: 
+<img width="313" alt="Screenshot 2024-03-27 111055" src="https://github.com/samyakteotia/Stock-market-price-prediction/assets/124557415/949f5aee-16c0-44ee-941e-7d398c3f0cc9">
+
+
