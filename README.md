@@ -1,14 +1,14 @@
 # Stock-market-price-prediction
 # Overview
-This repository contains a machine learning model for predicting stock prices using Linear Regression. The model is trained on historical stock price data and aims to forecast future prices based on relevant features.
+This project demonstrates the use of machine learning techniques to predict stock market prices. For training the model, we utilized Ethereum data due to its high volatility, which provides a more dynamic dataset compared to traditional stock market data.
 # Model Architecture
-The model utilizes Linear Regression, a simple yet powerful machine learning algorithm, to establish a linear relationship between input features and stock prices. It assumes that there exists a linear relationship between the independent variables (features) and the dependent variable (stock price).
+XGBoost (Extreme Gradient Boosting) is an advanced boosting algorithm that builds an ensemble of decision trees in a sequential manner. Each tree improves upon the errors of the previous trees, resulting in a highly accurate model. XGBoost incorporates regularization to prevent overfitting and optimizes performance through techniques such as gradient boosting and tree pruning.
 # Dataset
-We have used the tesla stock data. The dataset typically includes features such as opening price, closing price, highest price, lowest price, trading volume, etc.
+We have used the Ethereum coin data. The dataset typically includes features such as opening price, closing price, highest price, lowest price, trading volume, etc.
 # Usage
 - Data Preprocessing: Ensure that your dataset is properly preprocessed. This may involve handling missing values, scaling features, encoding categorical variables, etc.
 
-- Training the Model: Run the training script (train.py or similar) to train the Linear Regression model on your preprocessed dataset.
+- Training the Model: Run the training script (train.py or similar) to train the XG Boost model on the preprocessed dataset.
 
 - Testing: After training, you can test the model's performance using a separate test dataset. This step helps evaluate the model's accuracy and generalization capability.
 
@@ -21,10 +21,16 @@ Ensure you have the following dependencies installed:
 - pandas
 - numpy
 - matplotlib (for visualization)
+- XGBoost Regressor
 # Graph- predected vs actual
-<img width="748" alt="Screenshot 2024-03-27 110950" src="https://github.com/samyakteotia/Stock-market-price-prediction/assets/124557415/47986fb3-6a2a-4244-bcac-6a0293e86483">
+<img width="741" alt="{E6707581-91CF-41BD-BEB7-93D432B7C3B0}" src="https://github.com/user-attachments/assets/75e9daa1-7b01-4581-85ce-fbb3419c8946">
+
+# Feature Importance Graph
+<img width="514" alt="{34A815FB-A951-497C-BFF5-6F06AB41D643}" src="https://github.com/user-attachments/assets/caef4b41-d943-44be-be22-ee2370447536">
+
 
 # Results: 
-<img width="313" alt="Screenshot 2024-03-27 111055" src="https://github.com/samyakteotia/Stock-market-price-prediction/assets/124557415/949f5aee-16c0-44ee-941e-7d398c3f0cc9">
+<img width="306" alt="{D1F663DA-F867-4953-A20E-A5983E4C016C}" src="https://github.com/user-attachments/assets/e536d283-e588-40a3-8ec3-08282809ed71">
+
 
 
